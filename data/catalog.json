@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-19T12:34:19.784Z",
   "series": [
     {
       "id": "essential",
@@ -28,6 +28,168 @@
       "kind": "setting",
       "src": "media/luxury-chanel.webp",
       "description": "以已确认的大牌版核对头型与五官。"
+    },
+    {
+      "id": "upload-17e9b1f7-96b2-42bf-8a3a-03f399bcbd8f",
+      "title": "Gucci",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/uploads/upload-17e9b1f7-96b2-42bf-8a3a-03f399bcbd8f.png",
+      "description": "",
+      "createdAt": "2026-10-19T11:59:26.510Z"
+    },
+    {
+      "id": "upload-31281a47-ee4f-4ef3-90f1-ea0c5ec9a08e",
+      "title": "Prada",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/uploads/upload-31281a47-ee4f-4ef3-90f1-ea0c5ec9a08e.png",
+      "description": "",
+      "createdAt": "2026-10-19T11:59:26.521Z"
+    },
+    {
+      "id": "upload-3468ee6c-1012-4e1b-8557-a503a5c6f075",
+      "title": "LV",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/uploads/upload-3468ee6c-1012-4e1b-8557-a503a5c6f075.png",
+      "description": "",
+      "createdAt": "2026-10-19T12:22:48.448Z"
+    },
+    {
+      "id": "upload-3a934526-247c-4162-a2d3-f9c297ea72da",
+      "title": "CHANAL",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/uploads/upload-3a934526-247c-4162-a2d3-f9c297ea72da.png",
+      "description": "",
+      "createdAt": "2026-10-19T11:59:26.497Z"
+    },
+    {
+      "id": "upload-5027646b-758e-4c7f-abf2-605ab8286a00",
+      "title": "Diro",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/uploads/upload-5027646b-758e-4c7f-abf2-605ab8286a00.png",
+      "description": "",
+      "createdAt": "2026-10-19T11:59:26.514Z"
+    },
+    {
+      "id": "upload-67503c0e-5c26-472c-96b3-50d30510522c",
+      "title": "Dior",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/uploads/upload-67503c0e-5c26-472c-96b3-50d30510522c.png",
+      "description": "",
+      "createdAt": "2026-10-19T12:22:48.464Z"
+    },
+    {
+      "id": "upload-735430b0-e4d1-4ab4-88ea-367d7a8aedbe",
+      "title": "CHANAL",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/uploads/upload-735430b0-e4d1-4ab4-88ea-367d7a8aedbe.png",
+      "description": "",
+      "createdAt": "2026-10-19T12:22:48.438Z"
+    },
+    {
+      "id": "upload-94a18d59-5f4f-473c-8725-610b3e895894",
+      "title": "Hermes",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/uploads/upload-94a18d59-5f4f-473c-8725-610b3e895894.png",
+      "description": "",
+      "createdAt": "2026-10-19T12:22:48.451Z"
+    },
+    {
+      "id": "upload-9c1ac9dd-f4d5-4b1a-a01d-c192de15ac62",
+      "title": "Gucci",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/uploads/upload-9c1ac9dd-f4d5-4b1a-a01d-c192de15ac62.png",
+      "description": "",
+      "createdAt": "2026-10-19T12:22:48.460Z"
+    },
+    {
+      "id": "upload-aa7bf390-fedf-418e-888d-c3c690c35e42",
+      "title": "Hermes",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/uploads/upload-aa7bf390-fedf-418e-888d-c3c690c35e42.png",
+      "description": "",
+      "createdAt": "2026-10-19T11:59:26.516Z"
+    },
+    {
+      "id": "upload-c1b7877e-34e1-4aac-8938-d97d22fc2ec0",
+      "title": "MiuMiu",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/uploads/upload-c1b7877e-34e1-4aac-8938-d97d22fc2ec0.png",
+      "description": "",
+      "createdAt": "2026-10-19T11:59:26.525Z"
+    },
+    {
+      "id": "upload-c9bff208-e440-4cb4-bb4e-efa71292a78f",
+      "title": "MiuMiu",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/uploads/upload-c9bff208-e440-4cb4-bb4e-efa71292a78f.png",
+      "description": "",
+      "createdAt": "2026-10-19T12:22:48.457Z"
+    },
+    {
+      "id": "upload-cd1cefed-5379-450e-b7bd-6b60a62ab60d",
+      "title": "Balenciaga",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/uploads/upload-cd1cefed-5379-450e-b7bd-6b60a62ab60d.png",
+      "description": "",
+      "createdAt": "2026-10-19T11:59:26.519Z"
+    },
+    {
+      "id": "upload-db70d86a-d74e-4e3e-a9e5-118f5589d1d8",
+      "title": "Loewe",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/uploads/upload-db70d86a-d74e-4e3e-a9e5-118f5589d1d8.png",
+      "description": "",
+      "createdAt": "2026-10-19T12:22:48.474Z"
+    },
+    {
+      "id": "upload-df6a50ac-19fe-4eb8-842c-3765acd79f23",
+      "title": "Balenciaga",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/uploads/upload-df6a50ac-19fe-4eb8-842c-3765acd79f23.png",
+      "description": "",
+      "createdAt": "2026-10-19T12:22:48.454Z"
+    },
+    {
+      "id": "upload-e8a78b8c-436e-4d62-aa0e-c61011f43e89",
+      "title": "Loewe",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/uploads/upload-e8a78b8c-436e-4d62-aa0e-c61011f43e89.png",
+      "description": "",
+      "createdAt": "2026-10-19T11:59:26.523Z"
+    },
+    {
+      "id": "upload-e9227a1f-9bf2-4c59-a72e-e6f60a3c9c32",
+      "title": "Prada",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/uploads/upload-e9227a1f-9bf2-4c59-a72e-e6f60a3c9c32.png",
+      "description": "",
+      "createdAt": "2026-10-19T12:22:48.470Z"
+    },
+    {
+      "id": "upload-e9a0f79e-052c-4556-b1d9-3e2d78f8c563",
+      "title": "LV",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/uploads/upload-e9a0f79e-052c-4556-b1d9-3e2d78f8c563.png",
+      "description": "",
+      "createdAt": "2026-10-19T11:59:26.508Z"
     }
   ]
 }
