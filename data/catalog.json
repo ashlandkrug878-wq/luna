@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T12:54:05.493Z",
+  "updatedAt": "2026-10-19T14:49:22.438Z",
   "series": [
     {
       "id": "essential",
@@ -17,6 +17,14 @@
       "description": "大牌主题的3D造型、手绘插画及系列设定。",
       "color": "#e7eedb",
       "cover": "upload-17e9b1f7-96b2-42bf-8a3a-03f399bcbd8f"
+    },
+    {
+      "id": "fruit",
+      "title": "水果 Y2K",
+      "subtitle": "九种水果，九种拽甜心情。",
+      "description": "从水果提取主题色，搭配Y2K撞色、不同双辫发型与服装配饰，收录九款Luna 3D盲盒造型。",
+      "cover": "fruit-apple-3d",
+      "color": "#f4e6ec"
     }
   ],
   "assets": [
@@ -214,6 +222,87 @@
       "src": "media/uploads/upload-9853e8da-f0ff-46cc-8459-415d903f8d4f.mp4",
       "description": "",
       "createdAt": "2026-10-19T12:53:56.346Z"
+    },
+    {
+      "id": "fruit-apple-3d",
+      "title": "苹果 · Y2K 3D盲盒",
+      "series": "fruit",
+      "kind": "3d",
+      "src": "media/fruit/apple.webp",
+      "description": "水果Y2K系列 · 双辫发型版本",
+      "createdAt": "2026-10-19T14:49:22.437Z"
+    },
+    {
+      "id": "fruit-dragon-fruit-3d",
+      "title": "火龙果 · Y2K 3D盲盒",
+      "series": "fruit",
+      "kind": "3d",
+      "src": "media/fruit/dragon-fruit.webp",
+      "description": "水果Y2K系列 · 双辫发型版本",
+      "createdAt": "2026-10-19T14:49:22.438Z"
+    },
+    {
+      "id": "fruit-green-grape-3d",
+      "title": "青提 · Y2K 3D盲盒",
+      "series": "fruit",
+      "kind": "3d",
+      "src": "media/fruit/green-grape.webp",
+      "description": "水果Y2K系列 · 双辫发型版本",
+      "createdAt": "2026-10-19T14:49:22.438Z"
+    },
+    {
+      "id": "fruit-mango-3d",
+      "title": "芒果 · Y2K 3D盲盒",
+      "series": "fruit",
+      "kind": "3d",
+      "src": "media/fruit/mango.webp",
+      "description": "水果Y2K系列 · 双辫发型版本",
+      "createdAt": "2026-10-19T14:49:22.438Z"
+    },
+    {
+      "id": "fruit-blueberry-3d",
+      "title": "蓝莓 · Y2K 3D盲盒",
+      "series": "fruit",
+      "kind": "3d",
+      "src": "media/fruit/blueberry.webp",
+      "description": "水果Y2K系列 · 双辫发型版本",
+      "createdAt": "2026-10-19T14:49:22.438Z"
+    },
+    {
+      "id": "fruit-strawberry-3d",
+      "title": "草莓 · Y2K 3D盲盒",
+      "series": "fruit",
+      "kind": "3d",
+      "src": "media/fruit/strawberry.webp",
+      "description": "水果Y2K系列 · 双辫发型版本",
+      "createdAt": "2026-10-19T14:49:22.438Z"
+    },
+    {
+      "id": "fruit-avocado-3d",
+      "title": "牛油果 · Y2K 3D盲盒",
+      "series": "fruit",
+      "kind": "3d",
+      "src": "media/fruit/avocado.webp",
+      "description": "水果Y2K系列 · 双辫发型版本",
+      "createdAt": "2026-10-19T14:49:22.438Z"
+    },
+    {
+      "id": "fruit-lemon-3d",
+      "title": "柠檬 · Y2K 3D盲盒",
+      "series": "fruit",
+      "kind": "3d",
+      "src": "media/fruit/lemon.webp",
+      "description": "水果Y2K系列 · 双辫发型版本",
+      "createdAt": "2026-10-19T14:49:22.438Z"
+    },
+    {
+      "id": "fruit-grape-3d",
+      "title": "葡萄 · Y2K 3D盲盒",
+      "series": "fruit",
+      "kind": "3d",
+      "src": "media/fruit/grape.webp",
+      "description": "水果Y2K系列 · 双辫发型版本",
+      "createdAt": "2026-10-19T14:49:22.438Z"
     }
   ],
   "homeAssetId": "luna-overalls-3d"
