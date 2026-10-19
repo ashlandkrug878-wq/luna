@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T12:38:37.625Z",
+  "updatedAt": "2026-10-19T12:54:05.493Z",
   "series": [
     {
       "id": "essential",
@@ -205,6 +205,15 @@
       "src": "media/uploads/upload-e9a0f79e-052c-4556-b1d9-3e2d78f8c563.png",
       "description": "",
       "createdAt": "2026-10-19T11:59:26.508Z"
+    },
+    {
+      "id": "upload-9853e8da-f0ff-46cc-8459-415d903f8d4f",
+      "title": "风扇变装",
+      "series": "luxury",
+      "kind": "video",
+      "src": "media/uploads/upload-9853e8da-f0ff-46cc-8459-415d903f8d4f.mp4",
+      "description": "",
+      "createdAt": "2026-10-19T12:53:56.346Z"
     }
   ],
   "homeAssetId": "luna-overalls-3d"
