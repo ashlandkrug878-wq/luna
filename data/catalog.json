@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-19",
+  "series": [
+    {
+      "id": "essential",
+      "title": "认识 Luna",
+      "subtitle": "她的样子，她的态度。",
+      "description": "双短辫、眼镜和有点放空的眼神。基础形象与设计规范都在这里。",
+      "cover": "luna-blue",
+      "color": "#e8eaff"
+    }
+  ],
+  "assets": [
+    {
+      "id": "luna-blue",
+      "title": "蓝帽与雏菊",
+      "series": "essential",
+      "kind": "3d",
+      "src": "media/luna-blue.webp",
+      "description": "",
+      "brand": ""
+    },
+    {
+      "id": "master-chanel",
+      "title": "结构母版参考",
+      "series": "essential",
+      "kind": "setting",
+      "src": "media/luxury-chanel.webp",
+      "description": "以已确认的大牌版核对头型与五官。"
+    }
+  ]
+}

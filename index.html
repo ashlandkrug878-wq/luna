@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#eeeaff"><meta name="description" content="Luna的角色档案与系列作品集。探索3D潮玩、插画、毛绒产品和换装短片。">
+<title>Luna · 换个主题，还是我</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip">跳到作品</a>
+<header class="header"><a href="#" class="wordmark" aria-label="Luna 首页">luna<span>✳</span></a><nav aria-label="主导航"><a href="#" data-nav="home">首页</a><a href="#series/essential" data-nav="series">系列作品</a><a href="#guide" data-nav="guide">角色档案</a></nav><button id="upload-open" class="button small">＋ 添加作品<span id="draft-badge"></span></button></header>
+<main id="main" tabindex="-1"><div class="loading">Luna 正在挑衣服…</div></main>
+<footer><a class="wordmark" href="#">luna<span>✳</span></a><p>换个主题，还是我。</p><a href="https://github.com/ashlandkrug878-wq/luna" target="_blank" rel="noopener">作品仓库</a></footer>
+<dialog id="viewer" class="viewer" aria-labelledby="viewer-title"><div class="viewer-toolbar"><p id="viewer-title"></p><div><a id="viewer-original" class="button light small" target="_blank" rel="noopener">单独打开</a><button class="icon-button close" data-close="viewer" aria-label="关闭大图">×</button></div></div><div id="viewer-media"></div><div class="viewer-bottom"><button id="viewer-prev" class="button light">上一件</button><p id="viewer-caption"></p><button id="viewer-next" class="button light">下一件</button></div></dialog>
+<dialog id="upload" aria-labelledby="upload-title"><div class="dialog-head"><div><span class="dialog-kicker">Luna 的作品柜</span><h2 id="upload-title">添加一些新内容</h2></div><button class="icon-button" data-close="upload" aria-label="关闭上传窗口">×</button></div>
+<p class="muted">先放进本机草稿，再决定何时发布到网站。</p>
+<form id="upload-form"><div class="fields"><label>所属系列<select id="upload-series" required></select></label><label>内容类型<select id="upload-kind"><option value="3d">3D造型</option><option value="illustration">插画</option><option value="product">产品图</option><option value="video">视频</option><option value="setting">设定 / 场景</option></select></label></div>
+<details id="new-series-details"><summary>＋ 新建一个系列</summary><div class="fields"><label>系列名称<input id="new-series-title" placeholder="例如：水果假日" maxlength="40"></label><label>一句介绍<input id="new-series-desc" placeholder="这个系列的灵感与主题" maxlength="160"></label></div><button type="button" id="new-series-save" class="button secondary small">保存系列草稿</button></details>
+<label class="dropzone" id="dropzone"><span class="upload-symbol">＋</span><strong>点这里选图片或视频</strong><span>支持多选，也可以拖入文件；单个文件不超过20 MB</span><input id="file-input" type="file" accept="image/jpeg,image/png,image/webp,image/gif,video/mp4,video/webm" multiple></label>
+<div id="selected-files"></div><p id="upload-message" role="status" class="status"></p><button type="submit" class="button" id="save-drafts">保存到本机草稿</button></form>
+<section class="draft-section"><div class="section-line"><h3>待发布</h3><button type="button" id="publish-open" class="button secondary small">发布到网站</button></div><div id="draft-list"></div></section>
+<details class="upload-help"><summary>本机草稿和网站发布有什么区别？</summary><p>本机草稿保存在当前浏览器，其他设备和访客看不到；清理浏览器数据可能会丢失。发布会把素材保存到你的 luna 仓库，更新后所有设备都能看到。</p><p>首次发布需连接有 luna 仓库 Contents 读写权限的 GitHub fine-grained token。连接信息只用于当前页面，不保存到浏览器。不要在聊天中发送 token。</p><a href="https://github.com/ashlandkrug878-wq/luna/upload/main/media" target="_blank" rel="noopener">也可在 GitHub 上传文件</a><p>直接在 GitHub 添加的文件还需同步到 data/catalog.json，才会出现在作品列表中。</p></details>
+</dialog>
+<dialog id="connect" aria-labelledby="connect-title"><div class="dialog-head"><h2 id="connect-title">发布到 Luna 网站</h2><button class="icon-button" data-close="connect" aria-label="关闭发布窗口">×</button></div><p>将待发布的系列与素材保存到 <strong>ashlandkrug878-wq/luna</strong>，公开展示。</p><form id="connect-form"><label>GitHub token<input type="password" id="github-token" autocomplete="off" spellcheck="false" placeholder="仅本次页面使用" required></label><p class="muted">为 luna 仓库启用 Contents 读写权限即可。此信息不会写入代码、文件或本地存储。</p><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">前往 GitHub 创建访问凭证</a><p id="publish-status" class="status" role="status"></p><button class="button" id="publish-button" type="submit">连接并发布全部草稿</button></form></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript><p>请启用 JavaScript 查看系列作品。也可直接访问 <a href="https://github.com/ashlandkrug878-wq/luna">Luna 仓库</a>。</p></noscript>
+</body></html>
