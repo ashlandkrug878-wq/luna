@@ -1,30 +1,45 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T12:34:19.784Z",
+  "updatedAt": "2026-10-19T12:38:37.625Z",
   "series": [
     {
       "id": "essential",
       "title": "认识 Luna",
-      "subtitle": "她的样子，她的态度。",
-      "description": "双短辫、眼镜和有点放空的眼神。基础形象与设计规范都在这里。",
-      "cover": "luna-blue",
+      "subtitle": "第1位粉丝，从这身背带裤开始。",
+      "description": "以「第1位粉丝」背带裤造型作为基础展示，收录3D版、手绘版与角色设计规范。",
+      "cover": "luna-overalls-3d",
       "color": "#e8eaff"
+    },
+    {
+      "id": "luxury",
+      "title": "大牌衣橱",
+      "subtitle": "九套衣服，同一个Luna。",
+      "description": "大牌主题的3D造型、手绘插画及系列设定。",
+      "color": "#e7eedb",
+      "cover": "upload-17e9b1f7-96b2-42bf-8a3a-03f399bcbd8f"
     }
   ],
   "assets": [
     {
-      "id": "luna-blue",
-      "title": "蓝帽与雏菊",
+      "id": "luna-overalls-3d",
+      "title": "第1位粉丝 · 背带裤基础造型",
       "series": "essential",
       "kind": "3d",
-      "src": "media/luna-blue.webp",
-      "description": "",
-      "brand": ""
+      "src": "media/luna-overalls-3d.webp",
+      "description": "奶油黄色背带裤、彩色口袋与鞋子、黄色眼镜；Luna基础展示造型。"
+    },
+    {
+      "id": "luna-overalls-paper",
+      "title": "第1位粉丝 · 背带裤手绘版",
+      "series": "essential",
+      "kind": "illustration",
+      "src": "media/luna-overalls-paper.webp",
+      "description": "与背带裤基础造型对应的平面手绘海报。"
     },
     {
       "id": "master-chanel",
       "title": "结构母版参考",
-      "series": "essential",
+      "series": "luxury",
       "kind": "setting",
       "src": "media/luxury-chanel.webp",
       "description": "以已确认的大牌版核对头型与五官。"
@@ -32,7 +47,7 @@
     {
       "id": "upload-17e9b1f7-96b2-42bf-8a3a-03f399bcbd8f",
       "title": "Gucci",
-      "series": "essential",
+      "series": "luxury",
       "kind": "3d",
       "src": "media/uploads/upload-17e9b1f7-96b2-42bf-8a3a-03f399bcbd8f.png",
       "description": "",
@@ -41,7 +56,7 @@
     {
       "id": "upload-31281a47-ee4f-4ef3-90f1-ea0c5ec9a08e",
       "title": "Prada",
-      "series": "essential",
+      "series": "luxury",
       "kind": "3d",
       "src": "media/uploads/upload-31281a47-ee4f-4ef3-90f1-ea0c5ec9a08e.png",
       "description": "",
@@ -50,7 +65,7 @@
     {
       "id": "upload-3468ee6c-1012-4e1b-8557-a503a5c6f075",
       "title": "LV",
-      "series": "essential",
+      "series": "luxury",
       "kind": "illustration",
       "src": "media/uploads/upload-3468ee6c-1012-4e1b-8557-a503a5c6f075.png",
       "description": "",
@@ -59,7 +74,7 @@
     {
       "id": "upload-3a934526-247c-4162-a2d3-f9c297ea72da",
       "title": "CHANAL",
-      "series": "essential",
+      "series": "luxury",
       "kind": "3d",
       "src": "media/uploads/upload-3a934526-247c-4162-a2d3-f9c297ea72da.png",
       "description": "",
@@ -68,7 +83,7 @@
     {
       "id": "upload-5027646b-758e-4c7f-abf2-605ab8286a00",
       "title": "Diro",
-      "series": "essential",
+      "series": "luxury",
       "kind": "3d",
       "src": "media/uploads/upload-5027646b-758e-4c7f-abf2-605ab8286a00.png",
       "description": "",
@@ -77,7 +92,7 @@
     {
       "id": "upload-67503c0e-5c26-472c-96b3-50d30510522c",
       "title": "Dior",
-      "series": "essential",
+      "series": "luxury",
       "kind": "illustration",
       "src": "media/uploads/upload-67503c0e-5c26-472c-96b3-50d30510522c.png",
       "description": "",
@@ -86,7 +101,7 @@
     {
       "id": "upload-735430b0-e4d1-4ab4-88ea-367d7a8aedbe",
       "title": "CHANAL",
-      "series": "essential",
+      "series": "luxury",
       "kind": "illustration",
       "src": "media/uploads/upload-735430b0-e4d1-4ab4-88ea-367d7a8aedbe.png",
       "description": "",
@@ -95,7 +110,7 @@
     {
       "id": "upload-94a18d59-5f4f-473c-8725-610b3e895894",
       "title": "Hermes",
-      "series": "essential",
+      "series": "luxury",
       "kind": "illustration",
       "src": "media/uploads/upload-94a18d59-5f4f-473c-8725-610b3e895894.png",
       "description": "",
@@ -104,7 +119,7 @@
     {
       "id": "upload-9c1ac9dd-f4d5-4b1a-a01d-c192de15ac62",
       "title": "Gucci",
-      "series": "essential",
+      "series": "luxury",
       "kind": "illustration",
       "src": "media/uploads/upload-9c1ac9dd-f4d5-4b1a-a01d-c192de15ac62.png",
       "description": "",
@@ -113,7 +128,7 @@
     {
       "id": "upload-aa7bf390-fedf-418e-888d-c3c690c35e42",
       "title": "Hermes",
-      "series": "essential",
+      "series": "luxury",
       "kind": "3d",
       "src": "media/uploads/upload-aa7bf390-fedf-418e-888d-c3c690c35e42.png",
       "description": "",
@@ -122,7 +137,7 @@
     {
       "id": "upload-c1b7877e-34e1-4aac-8938-d97d22fc2ec0",
       "title": "MiuMiu",
-      "series": "essential",
+      "series": "luxury",
       "kind": "3d",
       "src": "media/uploads/upload-c1b7877e-34e1-4aac-8938-d97d22fc2ec0.png",
       "description": "",
@@ -131,7 +146,7 @@
     {
       "id": "upload-c9bff208-e440-4cb4-bb4e-efa71292a78f",
       "title": "MiuMiu",
-      "series": "essential",
+      "series": "luxury",
       "kind": "illustration",
       "src": "media/uploads/upload-c9bff208-e440-4cb4-bb4e-efa71292a78f.png",
       "description": "",
@@ -140,7 +155,7 @@
     {
       "id": "upload-cd1cefed-5379-450e-b7bd-6b60a62ab60d",
       "title": "Balenciaga",
-      "series": "essential",
+      "series": "luxury",
       "kind": "3d",
       "src": "media/uploads/upload-cd1cefed-5379-450e-b7bd-6b60a62ab60d.png",
       "description": "",
@@ -149,7 +164,7 @@
     {
       "id": "upload-db70d86a-d74e-4e3e-a9e5-118f5589d1d8",
       "title": "Loewe",
-      "series": "essential",
+      "series": "luxury",
       "kind": "illustration",
       "src": "media/uploads/upload-db70d86a-d74e-4e3e-a9e5-118f5589d1d8.png",
       "description": "",
@@ -158,7 +173,7 @@
     {
       "id": "upload-df6a50ac-19fe-4eb8-842c-3765acd79f23",
       "title": "Balenciaga",
-      "series": "essential",
+      "series": "luxury",
       "kind": "illustration",
       "src": "media/uploads/upload-df6a50ac-19fe-4eb8-842c-3765acd79f23.png",
       "description": "",
@@ -167,7 +182,7 @@
     {
       "id": "upload-e8a78b8c-436e-4d62-aa0e-c61011f43e89",
       "title": "Loewe",
-      "series": "essential",
+      "series": "luxury",
       "kind": "3d",
       "src": "media/uploads/upload-e8a78b8c-436e-4d62-aa0e-c61011f43e89.png",
       "description": "",
@@ -176,7 +191,7 @@
     {
       "id": "upload-e9227a1f-9bf2-4c59-a72e-e6f60a3c9c32",
       "title": "Prada",
-      "series": "essential",
+      "series": "luxury",
       "kind": "illustration",
       "src": "media/uploads/upload-e9227a1f-9bf2-4c59-a72e-e6f60a3c9c32.png",
       "description": "",
@@ -185,11 +200,12 @@
     {
       "id": "upload-e9a0f79e-052c-4556-b1d9-3e2d78f8c563",
       "title": "LV",
-      "series": "essential",
+      "series": "luxury",
       "kind": "3d",
       "src": "media/uploads/upload-e9a0f79e-052c-4556-b1d9-3e2d78f8c563.png",
       "description": "",
       "createdAt": "2026-10-19T11:59:26.508Z"
     }
-  ]
+  ],
+  "homeAssetId": "luna-overalls-3d"
 }
