@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T14:49:22.438Z",
+  "updatedAt": "2026-10-23T10:20:09.529Z",
   "series": [
     {
       "id": "essential",
@@ -22,7 +22,7 @@
       "id": "fruit",
       "title": "水果 Y2K",
       "subtitle": "九种水果，九种拽甜心情。",
-      "description": "从水果提取主题色，搭配Y2K撞色、不同双辫发型与服装配饰，收录九款Luna 3D盲盒造型。",
+      "description": "从水果提取主题色，搭配Y2K撞色、不同双辫发型与服装配饰，收录九款Luna 3D盲盒造型及对应的毛绒挂件产品图。",
       "cover": "fruit-apple-3d",
       "color": "#f4e6ec"
     }
@@ -303,6 +303,48 @@
       "src": "media/fruit/grape.webp",
       "description": "水果Y2K系列 · 双辫发型版本",
       "createdAt": "2026-10-19T14:49:22.438Z"
+    },
+    {
+      "id": "fruit-plush-01-apple-dragon-fruit-green-grape",
+      "title": "苹果 / 火龙果 / 青提 · 毛绒挂件",
+      "series": "fruit",
+      "kind": "product",
+      "src": "media/fruit/plush/01-apple-dragon-fruit-green-grape.webp",
+      "description": "水果 Y2K 毛绒挂件 · 约15cm设计效果图。由左至右：苹果 / 火龙果 / 青提。对应本系列同名3D盲盒造型，采用绒毛脸、棕色双辫与彩色眼镜。",
+      "relatedAssetIds": [
+        "fruit-apple-3d",
+        "fruit-dragon-fruit-3d",
+        "fruit-green-grape-3d"
+      ],
+      "createdAt": "2026-10-23T10:20:09.528Z"
+    },
+    {
+      "id": "fruit-plush-02-mango-blueberry-strawberry",
+      "title": "芒果 / 蓝莓 / 草莓 · 毛绒挂件",
+      "series": "fruit",
+      "kind": "product",
+      "src": "media/fruit/plush/02-mango-blueberry-strawberry.webp",
+      "description": "水果 Y2K 毛绒挂件 · 约15cm设计效果图。由左至右：芒果 / 蓝莓 / 草莓。对应本系列同名3D盲盒造型，采用绒毛脸、棕色双辫与彩色眼镜。",
+      "relatedAssetIds": [
+        "fruit-mango-3d",
+        "fruit-blueberry-3d",
+        "fruit-strawberry-3d"
+      ],
+      "createdAt": "2026-10-23T10:20:09.529Z"
+    },
+    {
+      "id": "fruit-plush-03-avocado-lemon-grape",
+      "title": "牛油果 / 柠檬 / 葡萄 · 毛绒挂件",
+      "series": "fruit",
+      "kind": "product",
+      "src": "media/fruit/plush/03-avocado-lemon-grape.webp",
+      "description": "水果 Y2K 毛绒挂件 · 约15cm设计效果图。由左至右：牛油果 / 柠檬 / 葡萄。对应本系列同名3D盲盒造型，采用绒毛脸、棕色双辫与彩色眼镜。",
+      "relatedAssetIds": [
+        "fruit-avocado-3d",
+        "fruit-lemon-3d",
+        "fruit-grape-3d"
+      ],
+      "createdAt": "2026-10-23T10:20:09.529Z"
     }
   ],
   "homeAssetId": "luna-overalls-3d"
