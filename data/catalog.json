@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T10:20:09.529Z",
+  "updatedAt": "2026-10-23T10:24:39.088Z",
   "series": [
     {
       "id": "essential",
@@ -255,7 +255,7 @@
       "title": "芒果 · Y2K 3D盲盒",
       "series": "fruit",
       "kind": "3d",
-      "src": "media/fruit/mango.webp",
+      "src": "media/fruit/mango-signature-v2.webp",
       "description": "水果Y2K系列 · 双辫发型版本",
       "createdAt": "2026-10-19T14:49:22.438Z"
     },
